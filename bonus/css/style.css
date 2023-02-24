@@ -1,0 +1,55 @@
+/*reset rules*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 177, 176);
+}
+
+.container{
+    margin: auto;
+    width: 1000px;
+    flex-wrap: wrap;
+    display : flex;
+    justify-content: center;
+    
+}
+
+.container > div {
+    border: 1px solid black;
+}
+
+.square{
+    
+    font-size: 14px;
+    color: rgb(3, 0, 0);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+
+
+.standardBg{
+    background-color: rgb(66, 66, 255);
+}
+
+.fizzBg{
+    background-color: rgb(255, 66, 66);
+}
+
+.buzzBg{
+    background-color: rgb(66, 255, 116);
+}
+.fizzBuzzBg{
+    background-color: rgb(233, 255, 66);
+}
+
