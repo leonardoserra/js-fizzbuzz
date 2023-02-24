@@ -1,25 +1,25 @@
 const container = document.querySelector('.container');
-let square = document.querySelector('.square');
+
 
 for(let i = 1; i<=100; i++){
-    container.innerHTML = `<div>${i}</div>`;
-    square.classList.add('standardBg');
-    container.innerHTML += square;
+    let square = `<div class="square">${i}</div>`;
+    
   
     
-    if(!(3 % square)){
-        square.classList.add('fizzBg');
-        container.innerHTML += square;
-    }else if (!(5 % square)){
-        square.classList.add('buzzBg');
-        container.innerHTML += square;
-    }else if (!(5 % square) && !(3 % square)){
-        square.classList.add('fizzBuzzBg');
-        container.innerHTML += square;
-    } else{
-        square.classList.add('standardBg');
-        container.innerHTML += square;
-    }
+    // if(!(3 % i)){
+    //     square.classList.add('fizzBg');
+        
+    // }else if (!(5 % i)){
+    //     square.classList.add('buzzBg');
+        
+    // }else if (!(5 % i) && !(3 % i)){
+    //     square.classList.add('fizzBuzzBg');
+        
+    // } else{
+    //     square.classList.add('standardBg');
+        
+    // }
 
-    
+    container.innerHTML += square;
+
 }
