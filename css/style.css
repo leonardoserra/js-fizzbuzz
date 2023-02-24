@@ -5,3 +5,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    margin: auto;
+    border: 1px dashed brown;
+    width: 1000px;
+    flex-wrap: wrap;
+    display : flex;
+    justify-content: space-between;
+}
+
+.container > div {
+    border: 1px solid black;
+}
+
+.square{
+    font-size: 20px;
+    color: white;
+    width: 80px;
+    height: 80px;
+}
+
+.standardBg{
+    background-color: rgb(66, 66, 255);
+}
+
+.fizzBg{
+    background-color: rgb(255, 66, 66);
+}
+
+.buzzBg{
+    background-color: rgb(66, 255, 116);
+}
+.fizzBuzzBg{
+    background-color: rgb(233, 255, 66);
+}
+
