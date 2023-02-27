@@ -8,20 +8,26 @@ for(let i = 1; i<=100; i++){
         square.classList.add('square', 'fizzBuzzBg');
         square.innerHTML = 'FIZZBUZZ';
         container.append(square);
+        console.log(square.innerHTML);
+
     }else if(i % 3 === 0){
         square.classList.add('square', 'fizzBg');
         square.innerHTML = 'FIZZ';
         container.append(square);
+        console.log(square.innerHTML);
+
     }else if (i % 5 === 0){
         square.classList.add('square', 'buzzBg');
         square.innerHTML = 'BUZZ';
         container.append(square);
+        console.log(square.innerHTML);
+
     } else{
         square.classList.add('square', 'standardBg');
         square.innerHTML = i;
         container.append(square);
+        console.log(i);
     }
-
 }
 
 // for(let i = 1; i<=100; i++){
